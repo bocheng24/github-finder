@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import { FaGithub } from 'react-icons/fa'
+import { AiOutlineHome } from 'react-icons/ai'
+import { AiOutlineExclamationCircle } from 'react-icons/ai'
 
 function Navbar() {
   return (
@@ -12,13 +14,13 @@ function Navbar() {
             </div>
         </Link>
         <div className="flex w-full flex-col items-center space-y-0 text-xl text-bold">
-            <div className='w-full py-3 text-center hover:bg-sunny link'>
+            <div className='w-full py-3 px-10 text-center hover:bg-cherry link flex items-center justify-start space-x-5'>
+                <AiOutlineHome />
                 <Link to="/">Home</Link>
             </div>
-            <div className='w-full py-3 text-center hover:bg-sunny link'>
-                <Link to="/about">
-                    About
-                </Link>
+            <div className='w-full py-3 px-10 text-center hover:bg-cherry link flex items-center justify-start space-x-5'>
+                <AiOutlineExclamationCircle />
+                <Link to="/about">About</Link>
             </div>
         </div>
         <div></div>

@@ -14,7 +14,8 @@ module.exports = {
       colors: {
         'main': '#0D3959',
         'secondary': '#693A78',
-        'danger': '#D14D5F',
+        'cherry': '#D14D5F',
+        'cherryLight': '#E0A4AC',
         'warning': 'E98C30',
         'sunny': '#E46B3F'
       }
