@@ -6,6 +6,7 @@ import {
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Navbar from "./components/Navbar/Navbar";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
           <Routes>
             <Route path='/' element={ <Home /> } />
             <Route path='about' element={ <About /> } />
+            <Route path='/notfound' element={ <NotFound /> } />
+            <Route path='/*' element={ <NotFound /> } />
           </Routes>
         </BrowserRouter>
     </div>
