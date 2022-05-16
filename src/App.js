@@ -1,7 +1,22 @@
+import { 
+          BrowserRouter,
+          Routes,
+          Route, 
+        } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Navbar from "./components/Navbar/Navbar";
+
 function App() {
   return (
-    <div>
-        <h1 className="text-3xl text-purple-300">Tailwind</h1>
+    <div className='flex justify-around'>
+        <BrowserRouter>
+          <Navbar />
+          <Routes>
+            <Route path='/' element={ <Home /> } />
+            <Route path='about' element={ <About /> } />
+          </Routes>
+        </BrowserRouter>
     </div>
   );
 }
