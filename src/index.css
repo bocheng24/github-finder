@@ -2,13 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    font-family: 'Roboto', system-ui, sans-serif;
+  }
+}
+
 body {
   /* position: relative; */
   background-color: #f9fafb;
 }
 
 .navbar {
-  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
   min-height: 100vh;
   max-height: 100vh;
 

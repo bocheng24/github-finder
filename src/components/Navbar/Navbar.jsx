@@ -4,7 +4,7 @@ import { FaGithub } from 'react-icons/fa'
 
 function Navbar() {
   return (
-    <nav className="navbar drop-shadow-xl py-3 flex flex-col items-center justify-around text-white space-y-8 bg-main">
+    <nav className="navbar drop-shadow-xl py-3 flex flex-col items-center justify-around text-white text-bold space-y-8 bg-main">
         <Link to='/'>
             <div className="flex text-lg text-bold items-center space-x-3 hover:drop-shadow-xl">
                 <FaGithub className='logo text-5xl text-bold' />

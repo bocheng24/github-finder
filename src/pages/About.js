@@ -2,62 +2,8 @@ import React from 'react'
 
 function About() {
   return (
-    <section>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>about</h1>
-      <h1>ab</h1>
-      <h1>ab</h1>
-      <h1>ab</h1>
-      <h1>ab</h1>
-      <h1>ab</h1>
-      <h1>ab</h1>
-      <h1>ab</h1>
-      <h1>ab</h1>
-      <h1>ab</h1>
-      <h1>ab</h1>
-      <h1>ab</h1>
-      <h1>ab</h1>
-      <h1>ab</h1>
-      <h1>ab</h1>
-      <h1>ab</h1>
+    <section className='flex flex-col items-center justify-center'>
+      <h1 className="text-3xl">About</h1>
     </section>
   )
 }
