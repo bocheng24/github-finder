@@ -9,7 +9,7 @@ import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <div className='flex justify-around'>
+    <div className='flex'>
         <BrowserRouter>
           <Navbar />
           <Routes>

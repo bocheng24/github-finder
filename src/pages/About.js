@@ -2,9 +2,63 @@ import React from 'react'
 
 function About() {
   return (
-    <div>
-      About
-    </div>
+    <section>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>about</h1>
+      <h1>ab</h1>
+      <h1>ab</h1>
+      <h1>ab</h1>
+      <h1>ab</h1>
+      <h1>ab</h1>
+      <h1>ab</h1>
+      <h1>ab</h1>
+      <h1>ab</h1>
+      <h1>ab</h1>
+      <h1>ab</h1>
+      <h1>ab</h1>
+      <h1>ab</h1>
+      <h1>ab</h1>
+      <h1>ab</h1>
+      <h1>ab</h1>
+    </section>
   )
 }
 
