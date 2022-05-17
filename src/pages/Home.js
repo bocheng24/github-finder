@@ -1,12 +1,12 @@
 import React from 'react'
+import UserResults from '../components/Users/UserResults'
 
 function Home() {
 
-  console.log(process.env.REACT_APP_GITHUB_URL)
   return (
-    <div>
-      Home
-    </div>
+    <section>
+      <UserResults />
+    </section>
   )
 }
 
